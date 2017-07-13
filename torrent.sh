@@ -1,4 +1,4 @@
-#MKSSHVPN AUTOSCRIPT 
+#Rasta AUTOSCRIPT 
 
 iptables -A INPUT -m string --algo bm --string "BitTorrent" -j REJECT
 iptables -A INPUT -m string --algo bm --string "BitTorrent protocol" -j REJECT
